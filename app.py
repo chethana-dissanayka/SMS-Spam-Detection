@@ -27,7 +27,7 @@ except Exception as e:
     st.error(f"Error loading model or vectorizer: {e}")
     st.stop()
 
-st.title("Email/SMS Spam Classifier")
+st.title("SMS Spam Classifier")
 input_sms = st.text_area("Enter the message")
 
 if st.button('Predict'):
