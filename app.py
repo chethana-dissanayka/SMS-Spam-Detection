@@ -4,6 +4,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+from PIL import Image
+import base64
 
 # Function to preprocess text
 def transform_text(text):
@@ -26,6 +28,24 @@ try:
 except Exception as e:
     st.error(f"Error loading model or vectorizer: {e}")
     st.stop()
+
+# Add background image
+def get_base64_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode()
+
+img_data = get_base64_image("backgrounds.jpg")
+
+page_bg_img = f'''
+<style>
+.stApp {{
+    background-image: url("data:image/jpeg;base64,{img_data}");
+    background-size: cover;
+}}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title("SMS Spam Classifier")
 input_sms = st.text_area("Enter the message")
