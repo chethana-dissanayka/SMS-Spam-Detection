@@ -1,0 +1,14 @@
+Spam SMS Examples:
+Congratulations! You've won a free gift card worth $500! Click here to claim: [bit.ly/fakegiftcard].
+URGENT: Your account has been compromised. Please click here to reset your password immediately: [bit.ly/fakepasswordreset].
+Get a loan with no credit check. Approve instantly! Text 'LOAN' to 12345 to apply now! More info: [bit.ly/fakeloanoffer].
+You have a new voicemail from +1234567890. Click here to listen: [bit.ly/fakevoicemail].
+Final notice! Your package is waiting for delivery. Confirm your address now: [bit.ly/fakepackage].
+
+
+Non-Spam SMS Examples:
+Hi Sarah, your order #12345 has been shipped and will be delivered by June 20th. Track your order here: [store.com/trackorder].
+Reminder: Your doctor's appointment is scheduled for June 22nd at 10:00 AM. Please confirm your attendance: [clinic.com/confirm].
+Hey John, it's Emma. Are we still on for dinner at 7 PM tonight?
+Your balance is low. Please add funds to your account to avoid service interruption. Visit our website or call customer service for assistance: [provider.com/addfunds].
+Don't miss our summer sale! Enjoy up to 50% off on selected items at our stores until June 30th. Visit us today: [retailer.com/summersale].
